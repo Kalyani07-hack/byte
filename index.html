@@ -1,14 +1,55 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>E-Magazine</title>
- </head>
- <body style="background-color: black; color: white;">
- <div style="text-align: center; padding: 20px;">
- <h1>E-Magazine 2025</h1>
-<iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/67009c267d.html" style="border:none; width: 100%; height: 600px;"></iframe>
- </div>
- </body>
- </html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Magazine</title>
+  <style>
+    /* Prevent the whole page from scrolling */
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      height: 100vh;
+    }
+
+    /* Container fills the viewport */
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100vw;
+      box-sizing: border-box;
+      align-items: center;
+    }
+
+    /* Header */
+    h1 {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    /* Iframe fills remaining space */
+    .fp-iframe {
+      border: none;
+      width: 100%;
+      flex: 1; /* fill remaining height */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>E-Magazine 2025</h1>
+    <iframe 
+      allowfullscreen="allowfullscreen" 
+      allow="clipboard-write" 
+      scrolling="no" 
+      class="fp-iframe" 
+      src="https://heyzine.com/flip-book/67009c267d.html">
+    </iframe>
+  </div>
+</body>
+</html>
